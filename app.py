@@ -119,3 +119,8 @@ for _ in range(5):
     print("🌜 good night")
 
 print(list(map(lambda num: num * 2, [1,2,3])))
+
+print([number * 2 for number in [1,2,3]])
+
+# print only odd numbers
+print([number for number in [1,2,3,4] if number % 2 != 0])
