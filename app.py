@@ -24,7 +24,6 @@ print('number to string ' + str(my_age))
 
 print(f'number to string 🆒  {my_age}')
 
-
 if my_age < 18:
     print('nope ❌')
 elif my_age > 65 and True:
@@ -124,3 +123,4 @@ print([number * 2 for number in [1,2,3]])
 
 # print only odd numbers
 print([number for number in [1,2,3,4] if number % 2 != 0])
+
